@@ -6,15 +6,16 @@ Image Storage - DI
 
 {% block content %}
 
-<div class="container">
+<div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">
-                    Upload image
+            <div class="card shadow-lg border-0 rounded-4">
+                
+                <div class="card-header bg-dark text-white rounded-top-4">
+                    <h5 class="mb-0">Upload image</h5>
                 </div>
 
-                <div class="card-body">
+                <div class="card-body p-4">
                     
                     <form action="{% url 'image_save' %}" 
                           method="post" 
@@ -22,19 +23,26 @@ Image Storage - DI
                         
                         {% csrf_token %}
 
-                        <div class="form-group">
-                            <label>Image:</label>
-                            <input type="file" name="profile_image" />
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Select image</label>
+                            <input type="file" 
+                                   name="profile_image" 
+                                   class="form-control rounded-3 shadow-sm" />
                         </div>
 
-                        <button type="submit" class="btn btn-primary">
-                            Submit
+                        <button type="submit" 
+                                class="btn btn-dark px-4 py-2 rounded-pill shadow-sm">
+                            Upload
                         </button>
+
                     </form>
 
                     {% if image_url %}
                         <hr>
-                        <img src="{{ image_url }}" class="img-fluid mt-3" />
+                        <div class="text-center">
+                            <img src="{{ image_url }}" 
+                                 class="img-fluid mt-3 rounded-4 shadow" />
+                        </div>
                     {% endif %}
 
                 </div>
