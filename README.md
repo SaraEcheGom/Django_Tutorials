@@ -48,9 +48,14 @@
 <img src="https://github.com/user-attachments/assets/3fe2278b-1c0b-4a24-8c5d-a087c5f67a82" width="450" />
 
 </p>
-
-
-
+<p align="center">
+<img alt="Captura de pantalla 2026-03-06 160825" src="https://github.com/user-attachments/assets/8c36e820-1df0-492e-8be4-7cbafa2079b1" width="450" />
+<img alt="Captura de pantalla 2026-03-06 160655" src="https://github.com/user-attachments/assets/f28b77f4-3943-4c1c-861e-d08e3fe115ae" width="450" />
+</p>
+<p align="center">
+<img alt="Captura de pantalla 2026-03-06 155223" src="https://github.com/user-attachments/assets/176b3668-dd60-4241-8d6a-3bb5385f2bff" width="450" />
+<img alt="Captura de pantalla 2026-03-06 153310" src="https://github.com/user-attachments/assets/2feb57f8-317f-4321-83b3-f9718d832021" width="450" />
+</p>
 
 
 
